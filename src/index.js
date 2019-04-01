@@ -15,6 +15,7 @@ const searchConfig = {
   env: process.env.ENV
 }
 
+// Actual query
 const query = {
   query: 'khols lang:en',
   maxResults: 100,
@@ -41,5 +42,5 @@ function getTweets () {
     saveJSON(`TEST`, body)
   })
 }
-// console.log(requestOptions);
+
 getTweets()

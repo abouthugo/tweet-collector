@@ -4,7 +4,7 @@
   "description": "A tool for collecting tweets and saving them into a database for NLP project",
   "main": "src/index.js",
   "scripts": {
-    "dev": "node -r esm -r dotenv/config src/index.js",
+    "collect": "node -r esm -r dotenv/config src/index.js",
     "test": "node -r esm -r dotenv/config src/test.js"
   },
   "keywords": [
