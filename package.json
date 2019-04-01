@@ -1,0 +1,23 @@
+{
+  "name": "tweets-collector",
+  "version": "1.0.0",
+  "description": "A tool for collecting tweets and saving them into a database for NLP project",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node -r esm -r dotenv/config src/index.js",
+    "test": "node -r esm -r dotenv/config src/test.js"
+  },
+  "keywords": [
+    "twitter",
+    "tweets",
+    "nlp"
+  ],
+  "author": "Hugo Perdomo",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "dotenv": "^7.0.0",
+    "esm": "^3.2.22",
+    "request": "^2.88.0"
+  }
+}
