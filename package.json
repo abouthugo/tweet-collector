@@ -4,7 +4,8 @@
   "description": "A tool for collecting tweets and saving them into a database for NLP project",
   "main": "src/index.js",
   "scripts": {
-    "collect": "node -r esm -r dotenv/config src/index.js"
+    "collect": "node -r esm -r dotenv/config src/index.js",
+    "start": "node -r esm -r dotenv/config lib/cron.js"
   },
   "keywords": [
     "twitter",
@@ -19,6 +20,7 @@
     "dotenv": "^7.0.0",
     "esm": "^3.2.22",
     "lowdb": "^1.0.0",
+    "node-cron": "^2.0.3",
     "request": "^2.88.0"
   }
 }
